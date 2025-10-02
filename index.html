@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>WELCOME TO THE API'S STUDIO — V7</title>
+  <meta name="description" content="Welcome To The API'S Studio — clean, fast, light-only landing for students: Wikipedia, NASA, Books, AI Studio, World Bank, arXiv, Museum, ONE." />
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app" class="stage" role="main">
+    <!-- HERO -->
+    <header class="hero" aria-labelledby="studio-title">
+      <h1 id="studio-title" class="hero-title">WELCOME TO THE API'S STUDIO</h1>
+      <p class="hero-sub">One place, clear choices — large numbered tiles guide students to focused API workspaces.</p>
+    </header>
+
+    <!-- API GRID -->
+    <nav class="api-grid" role="navigation" aria-label="API Studio navigation">
+      <a class="api-card" href="news/news.html" aria-label="Open Wikipedia workspace">
+        <div class="left">
+          <span class="num">01</span>
+          <span class="name">WIKIPEDIA</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+
+      <a class="api-card" href="nasa/nasa.html" aria-label="Open NASA workspace">
+        <div class="left">
+          <span class="num">02</span>
+          <span class="name">NASA</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+
+      <a class="api-card" href="books.html" aria-label="Open Books workspace">
+        <div class="left">
+          <span class="num">03</span>
+          <span class="name">BOOKS</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+
+      <a class="api-card" href="ai.html" aria-label="Open AI Studio">
+        <div class="left">
+          <span class="num">04</span>
+          <span class="name">AI STUDIO</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+
+      <a class="api-card" href="bank.html" aria-label="Open World Bank workspace">
+        <div class="left">
+          <span class="num">05</span>
+          <span class="name">WORLD BANK</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+
+      <a class="api-card" href="arxiv.html" aria-label="Open arXiv workspace">
+        <div class="left">
+          <span class="num">06</span>
+          <span class="name">ARXIV</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+
+      <a class="api-card" href="museum.html" aria-label="Open Museum workspace">
+        <div class="left">
+          <span class="num">07</span>
+          <span class="name">MUSEUM</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+
+      <a class="api-card" href="one/one.html" aria-label="Open ONE workspace">
+        <div class="left">
+          <span class="num">08</span>
+          <span class="name">ONE</span>
+        </div>
+        <span class="open" aria-hidden="true">OPEN</span>
+      </a>
+    </nav>
+
+    <!-- Single-page content (one paragraph, heading & subheading) -->
+    <section class="studio-content" aria-labelledby="content-heading">
+      <h2 id="content-heading" class="content-heading">Studio Overview</h2>
+      <h3 class="content-sub">A single, focused gateway for learners.</h3>
+      <p class="content-paragraph">
+        The API Studio is built to guide students quickly to verified data sources. Large numbered tiles reduce ambiguity — each tile opens a focused workspace for one API (Wikipedia, NASA, Books/OpenLibrary, AI Studio, World Bank, arXiv, Metropolitan Museum and ONE). The design is intentionally light, high-contrast, and minimal so learners concentrate on content instead of controls. All tiles are keyboard accessible and optimized for touch: pressing a tile shows immediate visual feedback and opens the selected workspace. For secure API integration, follow the downloadable API document linked below; always keep sensitive keys on server-side proxies. This page is mobile-first, performant, and designed to be easy for anyone to use.
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <img src="nasa-logo.svg" alt="SNS School Balotra" class="footer-logo" />
+      <a class="doc-download" href="document.html" download>Download API Document</a>
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
