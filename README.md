@@ -1,3 +1,5 @@
+https://kpatelboka646-prog.github.io/api-landing-page3.github.io/
+
 API Studio — Version 7 (focus fix)
 
 Files:
@@ -24,3 +26,4 @@ Notes:
 - I kept the OPEN badge as a non-interactive span inside the link; the ring is shown by focusing the card itself (this avoids nested interactive elements).
 
 If you want the ring to be visually stronger / different color, I can tweak the `box-shadow` value in style.css — otherwise this is optimally subtle as requested.
+
