@@ -89,13 +89,76 @@
       </a>
     </nav>
 
-    <!-- Single-page content (one paragraph, heading & subheading) -->
-    <section class="studio-content" aria-labelledby="content-heading">
-      <h2 id="content-heading" class="content-heading">Studio Overview</h2>
-      <h3 class="content-sub">A single, focused gateway for learners.</h3>
-      <p class="content-paragraph">
-        The API Studio is built to guide students quickly to verified data sources. Large numbered tiles reduce ambiguity — each tile opens a focused workspace for one API (Wikipedia, NASA, Books/OpenLibrary, AI Studio, World Bank, arXiv, Metropolitan Museum and ONE). The design is intentionally light, high-contrast, and minimal so learners concentrate on content instead of controls. All tiles are keyboard accessible and optimized for touch: pressing a tile shows immediate visual feedback and opens the selected workspace. For secure API integration, follow the downloadable API document linked below; always keep sensitive keys on server-side proxies. This page is mobile-first, performant, and designed to be easy for anyone to use.
-      </p>
+    <!-- Info sections below -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Built for Students & Educators</h2>
+        <p class="lead">Quick access, clear previews, and pedagogically-designed workflows. Everything is optimized for learning: readability, predictable UX and fast performance for low-bandwidth devices.</p>
+
+        <div class="features-grid">
+          <article class="feature">
+            <h3>Focused Search</h3>
+            <p>Each API is curated for students: search suggestions, image previews and readable summaries so learners find answers fast.</p>
+          </article>
+
+          <article class="feature">
+            <h3>Minimal, powerful UI</h3>
+            <p>Buttons and cards are intentionally simple — no clutter — to keep attention on content and learning flow.</p>
+          </article>
+
+          <article class="feature">
+            <h3>Device-first design</h3>
+            <p>Mobile-first layout with comfortable tap targets, 16:9 media ratio for images, and consistent spacing across screens.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section alt">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <ol class="steps">
+          <li><strong>Select an API:</strong> pick a square — each opens a focused workspace (Wikipedia, NASA, Books etc.).</li>
+          <li><strong>Search & Preview:</strong> quick suggestions and card-based summaries make exploring easy.</li>
+          <li><strong>AI Assist (optional):</strong> generate simplified summaries for study notes (connect from AI Studio page).</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="integrations" class="section">
+      <div class="container">
+        <h2 class="section-title">Available Integrations</h2>
+        <p class="lead">Placeholders are ready — click any card to connect to the detailed page. Integration templates for each API are pre-designed and easy to wire up later.</p>
+
+        <div class="integration-list">
+          <div><strong>Wikipedia</strong> — encyclopedia extracts, page preview, suggestions.</div>
+          <div><strong>NASA</strong> — image search, APOD, metadata filters.</div>
+          <div><strong>Google Books + Open Library</strong> — previews, editions, covers.</div>
+          <div><strong>Google AI Studio</strong> — generate student-friendly summaries (optional proxy required).</div>
+          <div><strong>World Bank</strong> — country indicators, charts & country search.</div>
+          <div><strong>arXiv</strong> — research papers search and abstracts.</div>
+          <div><strong>Metropolitan Museum</strong> — artworks, images and metadata.</div>
+          <div><strong>ONE</strong> — custom endpoint / future integration point.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="docs" class="section alt">
+      <div class="container docs-cta">
+        <div>
+          <h2 class="section-title">Documentation & Quickstart</h2>
+          <p class="lead">Download the API studio document for integration steps, page templates and recommended client-side patterns.</p>
+          <a href="document.html" class="download-btn" download>Download API Document</a>
+        </div>
+        <div class="doc-features">
+          <ul>
+            <li>Integration templates (client-side + proxy)</li>
+            <li>Token & rate-limit best practices</li>
+            <li>Accessible UI patterns for students</li>
+          </ul>
+        </div>
+      </div>
+    </section>
     </section>
 
     <!-- Footer -->
@@ -109,3 +172,4 @@
   <script src="script.js" defer></script>
 </body>
 </html>
+
